@@ -10,6 +10,8 @@ Image cropping: Individual motoneurons were manually cropped and saved as separa
 
 Image processing: Mitochondrial network analysis is based on the Skeletonize function in Fiji/ImageJ. This function traces the trajectory of the mitochondrial branches and measures features such as the "Longest shortest path" among other parameters.
 
+--------> RUN "Mitochondrial skeleton generation.ijm" and "Mitochondrial skeleton analysis.ijm"
+
 This method only works when the mitochondrial networks are well defined. It distinguishes single fragmented branches (rods), from branches interconnected at junctions. However, this method fails in the presence of mitochondrial clumps, as clumps appear as hundreds of branches interconnected.
 
 To generate a fair representation of the mitochondrial network, we first conduct a smooth processing of the images; followed by binary conversion using thresholding (Otsu method). 
@@ -23,6 +25,8 @@ An effective way to validate the result of the skeletonised mitochondrial branch
 Once we have generated the skeletons, we run "Analyze Skeleton (2D/3D)" and we save the "Branch information" and "Results" tables.
 
 Then we use R to transform these tables into:
+
+--------> RUN "R script Branch analysis.R"
 
 1) Median Branch length per motoneuron, calculated from the “Branch length” column in the “Branch information” table.
 
