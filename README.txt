@@ -26,5 +26,5 @@ Then we use R to transform these tables into:
 
 1) Median Branch length per motoneuron, calculated from the “Branch length” column in the “Branch information” table.
 
-2) To show the complexity of the network in each motoneuron, we calculate a histogram representing the proportion of interconnected branches. This histogram is calculated using a column called "#Branches" from the "Results" table. In this histogram we represent single branches (#Branches = 1, #Junctions = 0), pairs ((#Branches = 2, #Junctions = 1), and more complicated junctions built from multiple branches and up to 11 branches interconnected. We allow only clearly defined branches and remove complex branches resulting from clumps.
+2) A histogram representing the proportion of interconnected branches. This histogram is calculated using a column called "#Branches" from the "Results" table. In this histogram we represent single branches (#Branches = 1, #Junctions = 0), pairs ((#Branches = 2, #Junctions = 1), and more complicated junctions built from multiple branches and up to 11 branches interconnected. We allow only clearly defined branches and remove complex branches resulting from clumps.
 
