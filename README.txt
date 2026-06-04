@@ -8,7 +8,7 @@ Image acquisition parameters: To image CCAP-expressing motoneurons, Drosophila v
 
 Image cropping: Individual motoneurons were manually cropped and saved as separate TIFF files using Fiji/ImageJ. We named these TIFF files with a common name for each genotype.
 
-Image processing: Mitochondrial network analysis is based on the Skeletonize function. This function traces the trajectory of the mitochondrial branches and measures features such as the "Longest shortest path" among other parameters.
+Image processing: Mitochondrial network analysis is based on the Skeletonize function in Fiji/ImageJ. This function traces the trajectory of the mitochondrial branches and measures features such as the "Longest shortest path" among other parameters.
 
 This method only works when the mitochondrial networks are well defined. It distinguishes single fragmented branches (rods), from branches interconnected at junctions. However, this method fails in the presence of mitochondrial clumps, as clumps appear as hundreds of branches interconnected.
 
