@@ -16,7 +16,9 @@ To generate a fair representation of the mitochondrial network, we first conduct
 
 The "Skeletonize" function (found in Process > Binary > Skeletonize) is then applied. This approach works fine for quantifying mitochondrial branch lengths and junctions. The alternative method "Analyze Skeleton (2D/3D)" (found in Plugin > Skeleton) is only useful for making simplified representations of the network. 
 
-Skeletonise may occasionally fail. Instead of giving the mitochondrial network, it draws a cube with lines inside. This issue can often be resolved by inverting the LUT of the binary image. A fair way to validate the result of the skeletonised mitochondrial branches is to overlap the original image with the resulting skeleton. 
+Skeletonise may occasionally fail. Instead of giving the mitochondrial network, it draws a cube with lines inside. This issue can often be resolved by inverting the LUT of the binary image. 
+
+An effective way to validate the result of the skeletonised mitochondrial branches is to overlap the original image with the resulting skeleton. 
 
 Once we have generated the skeletons, we run "Analyze Skeleton (2D/3D)" and we save the "Branch information" and "Results" tables.
 
