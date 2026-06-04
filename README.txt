@@ -1,4 +1,4 @@
-Mitochondrial network analysis from single motoneurons
+Mitochondrial network analysis from single motoneurons.
 
 This method enables the analysis of mitochondrial morphology parameters, such as median mitochondrial branch length and the number of mitochondrial branches interconnected at each junction. It can be used to analyse individual motoneurons as we did in Figure 2 of: https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1008844
 
