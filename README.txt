@@ -1,6 +1,6 @@
 ## Mitochondrial network analysis from single motoneurons.
 
-This method enables the analysis of mitochondrial morphology parameters, such as median mitochondrial branch length and the number of mitochondrial branches interconnected at each junction. It can be used to analyse individual motoneurons as we did in Figure 2 of: https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1008844
+This method enables the analysis of mitochondrial morphology parameters, such as median mitochondrial branch length and the number of mitochondrial branches interconnected at the junctions. It can be used to analyse individual motoneurons as we did in Figure 2 of: https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1008844
 
 # To trace mitochondria in motoneurons, you can use this combination CCAP-Gal4>UAS-mitoGFP, where the CCAP-Gal4 driver is expressed in a small number of scattered motoneurons localised along the sides of the dorsal VNC. The transcriptional activity of the Gal4 driver on the UAS binding sites regulates the expression of mitoGFP, a mitochondrial matrix-targeted GFP that is based on the Cox8A MTS sequence.
 
