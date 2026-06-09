@@ -4,7 +4,7 @@ This method enables the analysis of mitochondrial morphology parameters, such as
 
 # To trace mitochondria in motoneurons, you can use this combination CCAP-Gal4>UAS-mitoGFP, where the CCAP-Gal4 driver - expressed in a small number of scattered motoneurons localised along the sides of the dorsal VNC- binds on the UAS binding sites to regulate the expression of mitoGFP - a mitochondrial matrix-targeted GFP that is based on the Cox8A MTS sequence.
 
-Image acquisition parameters: To image CCAP-expressing motoneurons, Drosophila ventral nerve cords (VNC) are mounted without the optic lobes and with dorsal facing the coverslip. For each VNC, 5-10 neurons were captured at either the left or right VNC side. Images are acquired at 2048 px by 2048 px using a confocal microscope with a 100X objective, 2x zoom, average line 2 and speed 5. 
+Image acquisition parameters: To image CCAP-expressing motoneurons, Drosophila ventral nerve cords (VNC) are mounted without the optic lobes and with dorsal facing the coverslip. For each VNC, 5-10 neurons are captured at either the left or right VNC side. Images are acquired at 2048 px by 2048 px using a confocal microscope with a 100X objective, 2x zoom, average line 2 and speed 5. 
 
 Image cropping: Individual motoneurons are manually cropped and saved as separate TIFF files using Fiji/ImageJ. Name these TIFF files with a common name for each genotype.
 
