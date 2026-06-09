@@ -141,7 +141,7 @@ analyse_branch <- function(input_path) {
   ))
 }
 
-results <- analyse_branch("/Users/amt54/Documents/confoco/Pink1 mutants/CCAP neurons/Raw files for analysis/branch connections")
+results <- analyse_branch("input_path")
 
 # save the results that are now ready for plotting and for stats. 
 
