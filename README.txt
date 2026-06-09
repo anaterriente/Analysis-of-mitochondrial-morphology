@@ -1,8 +1,8 @@
-Mitochondrial network analysis from single motoneurons.
+## Mitochondrial network analysis from single motoneurons.
 
 This method enables the analysis of mitochondrial morphology parameters, such as median mitochondrial branch length and the number of mitochondrial branches interconnected at each junction. It can be used to analyse individual motoneurons as we did in Figure 2 of: https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1008844
 
-To trace mitochondria in motoneurons, we used this combination CCAP-Gal4>UAS-mitoGFP, where the CCAP-Gal4 driver is expressed in a small number of scattered motoneurons localised along the sides of the dorsal VNC. The transcriptional activity of the Gal4 driver on the UAS binding sites regulates the expression of mitoGFP, a mitochondrial matrix-targeted GFP that is based on the Cox8A MTS sequence.
+# To trace mitochondria in motoneurons, we used this combination CCAP-Gal4>UAS-mitoGFP, where the CCAP-Gal4 driver is expressed in a small number of scattered motoneurons localised along the sides of the dorsal VNC. The transcriptional activity of the Gal4 driver on the UAS binding sites regulates the expression of mitoGFP, a mitochondrial matrix-targeted GFP that is based on the Cox8A MTS sequence.
 
 Image acquisition parameters: To image CCAP-expressing motoneurons, Drosophila ventral nerve cords (VNC) were mounted without the optic lobes and with dorsal facing the coverslip. For each VNC, 5-10 neurons were captured at either the left or right VNC side. Images were acquired at 2048 px by 2048 px using a confocal microscope with a 100X objective, 2x zoom, average line 2 and speed 5. 
 
@@ -24,7 +24,7 @@ An effective way to validate the result of the skeletonised mitochondrial branch
 
 Once we have generated the skeletons, we run "Analyze Skeleton (2D/3D)" and we save the "Branch information" and "Results" tables.
 
-Then we use R to transform these tables into:
+# Then we use R to transform these tables into:
 
 --------> RUN "R script Branch analysis.R"
 
