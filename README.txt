@@ -6,7 +6,7 @@ This method enables the analysis of mitochondrial morphology parameters, such as
 
 Image acquisition parameters: To image CCAP-expressing motoneurons, Drosophila ventral nerve cords (VNC) are mounted without the optic lobes and with dorsal facing the coverslip. For each VNC, 5-10 neurons are captured at either the left or right VNC side. Images are acquired at 2048 px by 2048 px using a confocal microscope with a 100X objective, 2x zoom, average line 2 and speed 5. 
 
-Image cropping: Individual motoneurons are manually cropped and saved as separate TIFF files using Fiji/ImageJ. Name these TIFF files with a common name for each genotype.
+Image cropping: Individual motoneurons are manually cropped and saved as separate TIFF files using Fiji/ImageJ. TIFF files are named with a common name for each genotype.
 
 Image processing: Mitochondrial network analysis is based on the Skeletonize function in Fiji/ImageJ. This function traces the trajectory of the mitochondrial branches and measures features such as the "Longest shortest path" among other parameters.
 
