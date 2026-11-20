@@ -12,7 +12,7 @@ Image processing: Mitochondrial network analysis is based on the Skeletonize fun
 
 --------> RUN "Mitochondrial skeleton generation.ijm" and "Mitochondrial skeleton analysis.ijm"
 
-# This method only works when the mitochondrial networks are well defined. It distinguishes single fragmented branches (rods), from branches interconnected at junctions. However, this method fails in the presence of mitochondrial clumps, as clumps appear as hundreds of branches interconnected.
+# This method only works when the mitochondrial networks are well defined. It distinguishes single fragmented branches (rods), from branches interconnected at junctions. However, this method fails in the presence of mitochondrial clumps, as clumps appear as hundreds of interconnected branches.
 
 To generate a fair representation of the mitochondrial network, first conduct a smooth processing of the images; followed by binary conversion using thresholding (Otsu method). 
 
